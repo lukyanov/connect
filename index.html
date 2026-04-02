@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Connect</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, system-ui, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100dvh;
+  background: #1a1a2e;
+  color: #e0e0e0;
+}
+.card {
+  text-align: center;
+  padding: 3rem 2rem;
+  max-width: 360px;
+  width: 100%;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+a.btn {
+  display: inline-block;
+  background: #2a2a3e;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.875rem 2.5rem;
+  border-radius: 12px;
+  transition: background 0.2s;
+}
+a.btn:active {
+  background: #3a3a4e;
+}
+a.btn.primary {
+  background: #2AABEE;
+}
+a.btn.primary:active {
+  background: #229ED9;
+}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="buttons">
+    <a class="btn primary" href="tg://proxy?server=172.236.25.218&port=443&secret=ee6a07ee36895f4b74e0e7431f928c7a5b62726f777365722e79616e6465782e636f6d">Connect</a>
+    <a class="btn" href="tg://proxy?server=ov.4.mtproto.ru&port=443&secret=ee2111222233334444555566667777888862726f777365722e79616e6465782e636f6d">Backup</a>
+  </div>
+</div>
+</body>
+</html>
